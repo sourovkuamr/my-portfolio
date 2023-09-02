@@ -1,6 +1,6 @@
 /* Shared style */
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
 }
 .special{
 color: #FD6E0A;
@@ -56,8 +56,8 @@ nav a{
     /* margin-bottom: 0px; */
 }
 .banner-paragraph{
-    font-family: sans-serif;
-color: (#757575);
+font-family: sans-serif;
+color: #757575;
 font-size: 18px;
 font-style: normal;
 font-weight: 300;
@@ -83,4 +83,34 @@ line-height: normal;
 }
 .profile-picture{
 
+}
+
+/* main section styles */
+
+
+
+/* about section styles */
+.about{
+    background-color:#FFF8F3 ;
+    border-radius: 10px;
+    padding: 130px;   
+    margin: 130px 230px 130px 230px;
+}
+.section-title{
+color: #181818 ;
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.section-description{
+    color: var(--Dark-03, #757575);
+text-align: center;
+font-family: sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
 }
