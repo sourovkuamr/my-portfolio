@@ -50,7 +50,8 @@ nav a{
 }
 .banner{
     padding: 30px 30px 0px 150px;
-    display: flex;
+    display: flex; 
+    justify-content: space-between;
 }
 .banner-greating{
     /* margin-bottom: 0px; */
@@ -84,17 +85,23 @@ line-height: normal;
 .profile-picture{
 
 }
-
 /* main section styles */
 
-
+/* main{ */
+    /* max-width: 1140px; */
+    /* margin: 0 auto; */
+/* } */
 
 /* about section styles */
 .about{
     background-color:#FFF8F3 ;
     border-radius: 10px;
-    padding: 130px;   
-    margin: 130px 230px 130px 230px;
+    padding: 209px 157px 221px 156px;   
+    margin: 130px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
 }
 .section-title{
 color: #181818 ;
@@ -113,4 +120,8 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
+}
+.about-info{
+    text-align: center;
+    margin-top: 5px;
 }
