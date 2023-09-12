@@ -202,6 +202,9 @@ line-height: 28px; /* 175% */
     margin-top: 50px;
 }
 /* footer section part */
+.social-links a{
+margin-right: 25px;
+}
 footer{
     display: flex;
     gap: 100px;
@@ -212,7 +215,7 @@ footer{
 .footer-column{
     width: 50%;
 }
-.contact input,textarea {
+.contact input[type="text"], .contact input[type="email"] ,textarea {
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
