@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="preloader"></div>
     <header class="header">
         <nav>
             <h3 class="nav-title">Ma<span class="special">r</span>y</h3>
@@ -165,6 +166,12 @@
 
      </div>
     </footer>
-    
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load",function(){
+            loader.style.display = "none";
+        })
+
+    </script>
 </body>
 </html>
