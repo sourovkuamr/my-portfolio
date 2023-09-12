@@ -157,8 +157,47 @@ line-height: 30px; /* 166.667% */
     font-weight: 400;
     line-height: 28px; /* 175% */
 }
+/* resume style here */
 .resume-column-title{
     color: #474747;
 font-size: 30px;
 font-weight: 700;
+margin-bottom: 10px;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-description{
+    color: #757575;
+font-family: sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.resume-item-title{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.resume-item-institute{
+    color:  #757575;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
